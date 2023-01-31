@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "perspective-wrapper"
+version = "0.1.0"
+description = ""
+authors = ["barbamento <lorenzo.alvisi@studio.unibo.it>"]
+readme = "README.md"
+packages = [{include = "perspective_wrapper"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^1.5.3"
+perspective = "^1.0.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
